@@ -168,3 +168,42 @@ nav .login a {
     color: #231f1c;
     background-color: #a3e635;
 }
+
+.showcase {
+    padding: 40px 80px;
+    margin-top: 20px;
+}
+
+.showcase h3 {
+    color: #fff;
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.showcase .text-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.showcase .text-sec p {
+    width: 50%;
+    text-align: justify;
+}
+
+.showcase .text-sec .images, .showcase .image-sec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.showcase .text-sec .images img, .showcase .image-sec img {
+    width: 256px;
+    border-radius: 40px;
+    border: 2px solid #c5c5c5;
+}
+
